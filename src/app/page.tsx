@@ -1,11 +1,14 @@
-import Image from "next/image";
+import Nav_Bar from "@/Components/Nav_Bar";
+import Seccion_Agenda from "@/Components/Seccion_Agenda";
+import Seccion_Serv_Rea from "@/Components/Seccion_Serv_Rea";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-violet-500">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-violet-500 sm:items-start">
-        
-      </main>
-    </div>
+    <main className="w-full font-mono font-bold">
+      <section className="flex flex-col items-center justify-center w-screen h-screen">
+        <Nav_Bar />
+        <Seccion_Agenda/>
+      </section>
+    </main>
   );
 }
