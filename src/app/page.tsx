@@ -52,7 +52,7 @@ export default function Home() {
   } else {
     return (
       <main className="w-full font-mono font-bold">
-        <section className="flex flex-col items-center justify-center w-full h-full">
+        <section className="flex flex-col items-center justify-center w-screen h-screen">
         <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold ">
           <button onClick={() => setval1 (val =1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
           <button onClick={() => setval1 (val =2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
