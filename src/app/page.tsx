@@ -13,7 +13,7 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold ">
+          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold  border-black border-dashed">
             <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
             <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
             <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
@@ -28,7 +28,7 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold ">
+          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold  border-black border-dashed">
             <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
             <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
             <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
@@ -43,7 +43,7 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold ">
+          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold  border-black border-dashed">
             <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
             <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
             <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
@@ -58,7 +58,7 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold ">
+          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold  border-black border-dashed">
             <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
             <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
             <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
@@ -74,7 +74,7 @@ export default function Home() {
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
 
-          <div className="text-black flex flex-col items-center gap-10 bg-pink-200 border-4 rounded-4xl p-10 min-w-3/4 w-3/4 h-3/4 mt-10 border-c">
+          <div className="text-black flex flex-col items-center gap-10 bg-pink-200 border-4 rounded-4xl p-10 min-w-3/4 w-3/4 h-3/4 mt-10 border-black border-dashed">
             <div>
               <h1 className="text text-3xl">❤️Bienvenido a TRENZAS NOE!!🌻</h1>
             </div>
@@ -86,7 +86,7 @@ export default function Home() {
               <h1>|</h1>
               <h1>V</h1>
               </div>
-            <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold ">
+            <nav className=" flex flex-row gap-3 border rounded-2xl p-2 blur-1xl bg-pink-300 font-mono text-black font-bold border-black border-dashed">
               <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
               <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
               <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>

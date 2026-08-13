@@ -1,11 +1,27 @@
 import Form_Agenda from "./Form_Agenda";
+import Card from "./Card";
 export default function Seccion_Citas_Pend() {
+  const color = "#96D3FF"
+  const status = false
   return (
-      <div className="text-black flex flex-col items-center gap-10 bg-pink-200 border-4 rounded-4xl p-10 w-3/4  h-3/4 mt-10 border-c">
-        <div>
-        <h1 className="text text-3xl">Citas Pendientes</h1>
-        </div>
-        
+    <div className="text-black flex flex-col items-center gap-10 bg-pink-200 border-4 rounded-4xl w-3/4 p-8  h-3/4 mt-10 border-black border-dashed">
+      <div>
+        <h1 className="text text-3xl underline">Citas Pendientes</h1>
       </div>
+      <div className="grid grid-cols-3 relative gap-5 scrollbar-thumb-purple-300  scrollbar-track-sky-100 overflow-auto ">
+        <Card completado={status} numero="8298542133" numcita="1" nombre="Camila" fecha="12/4/20026" descripcion="Se peinara con trensas gruesas y cortas" color={color}></Card>
+        <Card completado={status} numero="8295342645" numcita="2" nombre="Maria" fecha="13/4/20026" descripcion="Se peinara con trensas largas y finas" color={color}></Card>
+        <Card completado={status} numero="8298542133" numcita="1" nombre="Camila" fecha="12/4/20026" descripcion="Se peinara con trensas gruesas y cortas" color={color}></Card>
+        <Card completado={status} numero="8295342645" numcita="2" nombre="Maria" fecha="13/4/20026" descripcion="Se peinara con trensas largas y finas" color={color}></Card>
+        <Card completado={status} numero="8298542133" numcita="1" nombre="Camila" fecha="12/4/20026" descripcion="Se peinara con trensas gruesas y cortas" color={color}></Card>
+        <Card completado={status} numero="8295342645" numcita="2" nombre="Maria" fecha="13/4/20026" descripcion="Se peinara con trensas largas y finas" color={color}></Card>
+        <Card completado={status} numero="8298542133" numcita="1" nombre="Camila" fecha="12/4/20026" descripcion="Se peinara con trensas gruesas y cortas" color={color}></Card>
+        <Card completado={status} numero="8295342645" numcita="2" nombre="Maria" fecha="13/4/20026" descripcion="Se peinara con trensas largas y finas" color={color}></Card>
+        <Card completado={status} numero="8298542133" numcita="1" nombre="Camila" fecha="12/4/20026" descripcion="Se peinara con trensas gruesas y cortas" color={color}></Card>
+        <Card completado={status} numero="8295342645" numcita="2" nombre="Maria" fecha="13/4/20026" descripcion="Se peinara con trensas largas y finas" color={color}></Card>
+        <Card completado={status} numero="8298542133" numcita="1" nombre="Camila" fecha="12/4/20026" descripcion="Se peinara con trensas gruesas y cortas" color={color}></Card>
+        <Card completado={status} numero="8295342645" numcita="2" nombre="Maria" fecha="13/4/20026" descripcion="Se peinara con trensas largas y finas" color={color}></Card>
+      </div>
+    </div>
   );
 }
