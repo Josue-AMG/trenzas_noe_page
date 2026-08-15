@@ -1,10 +1,10 @@
-import Table from "./Table";
+
 import Card from "./Card";
 export default function Seccion_Pend_Pagar() {
   const color = "#F28FC1"
   const status = false
   return (
-    <div className="text-black flex flex-col items-center gap-10 bg-pink-200 border-4 rounded-4xl p-8 w-3/4  h-3/4 mt-10 border-black border-dashed">
+    <div className="text-black flex flex-col backdrop-blur-sm  bg-purple-500/30 items-center gap-10 border-4 rounded-4xl p-8 w-3/4  h-3/4 mt-10 border-black border-dashed">
       <div>
         <h1 className="text text-3xl">Servicios pendientes por pagar</h1>
       </div>

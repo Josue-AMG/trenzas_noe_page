@@ -8,10 +8,14 @@
   :root {
     --background: #a37bdba3;
     
+    
+    
   }
 }
 
 body {
-  background: var(--background);
+ 
+  background: url('../Components/bg-lila.jpg');
   font-family: Arial, Helvetica, sans-serif;
+  
 }

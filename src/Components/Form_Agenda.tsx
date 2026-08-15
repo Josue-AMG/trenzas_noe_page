@@ -1,6 +1,6 @@
 export default function Form_Agenda() {
     return (
-        <div className="flex flex-col items-center gap-10">
+        <div className="flex flex-col text-wh items-center gap-10">
             <section className="  flex flex-col w-100 gap-5">
                 <section>
                     <label htmlFor="nombre" className="p-1">Nombre de Cliente</label>
