@@ -13,12 +13,12 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold ">
         <section className="flex flex-col items-center justify-center w-screen h-screen ">
-          <nav className=" flex flex-row gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
-            <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
-            <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
-            <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
-            <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
-          </nav>
+            <nav className="lg:flex-row flex-col flex  gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
+              <button onClick={() => setval1(val = 1)} className="transition pr-3  md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Agenda de Citas</button>
+              <button onClick={() => setval1(val = 2)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Citas Pendientes</button>
+              <button onClick={() => setval1(val = 3)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Servicio realizado</button>
+              <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
+            </nav>
           <Seccion_Agenda />
         </section>
       </main>
@@ -28,12 +28,12 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className="  flex flex-row gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
-            <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
-            <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
-            <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
-            <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
-          </nav>
+            <nav className="lg:flex-row flex-col flex  gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
+              <button onClick={() => setval1(val = 1)} className="transition pr-3  md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Agenda de Citas</button>
+              <button onClick={() => setval1(val = 2)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Citas Pendientes</button>
+              <button onClick={() => setval1(val = 3)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Servicio realizado</button>
+              <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
+            </nav>
           <Seccion_Citas_Pend />
         </section>
       </main>
@@ -43,12 +43,12 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className="  flex flex-row gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
-            <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
-            <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
-            <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
-            <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
-          </nav>
+            <nav className="lg:flex-row flex-col flex  gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
+              <button onClick={() => setval1(val = 1)} className="transition pr-3  md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Agenda de Citas</button>
+              <button onClick={() => setval1(val = 2)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Citas Pendientes</button>
+              <button onClick={() => setval1(val = 3)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Servicio realizado</button>
+              <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
+            </nav>
           <Seccion_Serv_Rea />
         </section>
       </main>
@@ -58,12 +58,12 @@ export default function Home() {
     return (
       <main className="w-full font-mono font-bold">
         <section className="flex flex-col items-center justify-center w-screen h-screen">
-          <nav className="  flex flex-row gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
-            <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas |</button>
-            <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes |</button>
-            <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado |</button>
-            <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
-          </nav>
+            <nav className="lg:flex-row flex-col flex  gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
+              <button onClick={() => setval1(val = 1)} className="transition pr-3  md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Agenda de Citas</button>
+              <button onClick={() => setval1(val = 2)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Citas Pendientes</button>
+              <button onClick={() => setval1(val = 3)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Servicio realizado</button>
+              <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
+            </nav>
           <Seccion_Pend_Pagar />
         </section>
       </main>
@@ -84,9 +84,9 @@ export default function Home() {
               <div>
               </div>
             <nav className="lg:flex-row flex-col flex  gap-3 border rounded-2xl p-2 backdrop-blur-sm  bg-pink-400/30  font-mono text-white font-bold  border-black border-dashed">
-              <button onClick={() => setval1(val = 1)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Agenda de Citas</button>
-              <button onClick={() => setval1(val = 2)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Citas Pendientes</button>
-              <button onClick={() => setval1(val = 3)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Servicio realizado</button>
+              <button onClick={() => setval1(val = 1)} className="transition pr-3  md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Agenda de Citas</button>
+              <button onClick={() => setval1(val = 2)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Citas Pendientes</button>
+              <button onClick={() => setval1(val = 3)} className="transition pr-3 md:border-b-4 lg:border-r-4 lg:border-b-0 hover:text-violet-700 hover:text-xl delay-300" >Servicio realizado</button>
               <button onClick={() => setval1(val = 4)} className="transition  hover:text-violet-700 hover:text-2xl delay-300" >Pendiente por pagar</button>
             </nav>
           </div>
